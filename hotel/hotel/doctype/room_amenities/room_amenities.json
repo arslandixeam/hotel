@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "autoname": "ROOM-AMENITIES-.##########",
+ "creation": "2021-05-19 11:51:03.892495",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "hotel_amenities_crs_id",
+  "amenities_name",
+  "hotel_amenities_crs_added_by_id",
+  "icon",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "hotel_amenities_crs_id",
+   "fieldtype": "Data",
+   "label": "ID"
+  },
+  {
+   "fieldname": "amenities_name",
+   "fieldtype": "Data",
+   "label": "Amenities Name"
+  },
+  {
+   "fieldname": "hotel_amenities_crs_added_by_id",
+   "fieldtype": "Data",
+   "label": "Hotel Amenities crd added by id"
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Data",
+   "label": "Icon"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-05 09:25:01.926185",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "Room Amenities",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

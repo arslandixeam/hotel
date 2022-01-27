@@ -1,0 +1,132 @@
+{
+ "actions": [],
+ "autoname": "TRAVELPORT-HOTELS-.##########",
+ "creation": "2021-05-19 12:42:25.013322",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "vendor_code",
+  "vendor_location_id",
+  "hotel_address",
+  "units",
+  "value",
+  "direction",
+  "hotel_chain",
+  "hotel_code",
+  "hotel_location",
+  "hotel_name",
+  "reserve_requirement",
+  "availability",
+  "reference_point",
+  "phones",
+  "hotel_address_1",
+  "is_valid"
+ ],
+ "fields": [
+  {
+   "fieldname": "vendor_code",
+   "fieldtype": "Data",
+   "label": "Vendor Code"
+  },
+  {
+   "fieldname": "vendor_location_id",
+   "fieldtype": "Data",
+   "label": "Vendor Location Id"
+  },
+  {
+   "fieldname": "hotel_address",
+   "fieldtype": "Data",
+   "label": "Hotel Address"
+  },
+  {
+   "fieldname": "units",
+   "fieldtype": "Data",
+   "label": "Units"
+  },
+  {
+   "fieldname": "value",
+   "fieldtype": "Data",
+   "label": "Value"
+  },
+  {
+   "fieldname": "direction",
+   "fieldtype": "Data",
+   "label": "Direction"
+  },
+  {
+   "fieldname": "hotel_chain",
+   "fieldtype": "Data",
+   "label": "Hotel Chain"
+  },
+  {
+   "fieldname": "hotel_code",
+   "fieldtype": "Data",
+   "label": "Hotel Code"
+  },
+  {
+   "fieldname": "hotel_location",
+   "fieldtype": "Data",
+   "label": "Hotel Location"
+  },
+  {
+   "fieldname": "hotel_name",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "reserve_requirement",
+   "fieldtype": "Data",
+   "label": "Reserve Requirement"
+  },
+  {
+   "fieldname": "availability",
+   "fieldtype": "Data",
+   "label": "Availability"
+  },
+  {
+   "fieldname": "reference_point",
+   "fieldtype": "Data",
+   "label": "Reference Point"
+  },
+  {
+   "fieldname": "phones",
+   "fieldtype": "Data",
+   "label": "Phones"
+  },
+  {
+   "fieldname": "hotel_address_1",
+   "fieldtype": "Data",
+   "label": "Hotel Address 1"
+  },
+  {
+   "fieldname": "is_valid",
+   "fieldtype": "Data",
+   "label": "Valid"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-05 09:25:03.500918",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "Travelport Hotels",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

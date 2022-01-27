@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "autoname": "BOKING-REQUEST-.##########",
+ "creation": "2021-06-24 13:08:33.734385",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "origin",
+  "meta_course",
+  "data",
+  "created_at"
+ ],
+ "fields": [
+  {
+   "fieldname": "origin",
+   "fieldtype": "Data",
+   "label": "Origin"
+  },
+  {
+   "fieldname": "meta_course",
+   "fieldtype": "Data",
+   "label": "Meta Course"
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "Long Text",
+   "label": "Data"
+  },
+  {
+   "fieldname": "created_at",
+   "fieldtype": "Data",
+   "label": "Created At"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-05 09:25:07.028956",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "Booking Request Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,144 @@
+{
+ "actions": [],
+ "autoname": "FLIGHT-PASSENGER-.##########",
+ "creation": "2021-05-25 12:59:10.831451",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "origin",
+  "app_reference",
+  "flight_booking_transaction_details_fk",
+  "passenger_type",
+  "is_lead",
+  "email",
+  "title",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "date_of_birth",
+  "gender",
+  "passenger_nationality",
+  "passport_number",
+  "passport_issuing_country",
+  "passport_expiry_date",
+  "status",
+  "attributes"
+ ],
+ "fields": [
+  {
+   "fieldname": "origin",
+   "fieldtype": "Data",
+   "label": "Origin"
+  },
+  {
+   "fieldname": "app_reference",
+   "fieldtype": "Data",
+   "label": "App Referance"
+  },
+  {
+   "fieldname": "flight_booking_transaction_details_fk",
+   "fieldtype": "Data",
+   "label": "Flight booking transaction details fk"
+  },
+  {
+   "fieldname": "passenger_type",
+   "fieldtype": "Data",
+   "label": "Passenger type"
+  },
+  {
+   "fieldname": "is_lead",
+   "fieldtype": "Data",
+   "label": "Lead"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Data",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "Gender"
+  },
+  {
+   "fieldname": "passenger_nationality",
+   "fieldtype": "Data",
+   "label": "Passenger nationality"
+  },
+  {
+   "fieldname": "passport_number",
+   "fieldtype": "Data",
+   "label": "Passport number"
+  },
+  {
+   "fieldname": "passport_issuing_country",
+   "fieldtype": "Data",
+   "label": "Passport issuing country"
+  },
+  {
+   "fieldname": "passport_expiry_date",
+   "fieldtype": "Data",
+   "label": "Passport expiry date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "attributes",
+   "fieldtype": "Data",
+   "label": "Attributes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-01-17 13:38:35.660759",
+ "modified_by": "Administrator",
+ "module": "Flight",
+ "name": "Flight booking passenger details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

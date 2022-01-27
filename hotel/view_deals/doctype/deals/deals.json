@@ -1,0 +1,224 @@
+{
+ "actions": [],
+ "autoname": "DEALS-.###############",
+ "creation": "2021-05-24 13:49:18.369129",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "short_title",
+  "title",
+  "imagename",
+  "minprice",
+  "start_date",
+  "end_date",
+  "column_break_5",
+  "dealtype",
+  "from_airport",
+  "to_airport",
+  "deal_carrier",
+  "countries",
+  "deal_city",
+  "deal_hotels",
+  "column_break_11",
+  "is_featured",
+  "status",
+  "short_summary",
+  "summary",
+  "reviews",
+  "price_text",
+  "latitude",
+  "longitude",
+  "tags",
+  "additional_tags",
+  "created_at",
+  "created_by",
+  "deal_city_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "short_title",
+   "fieldtype": "Data",
+   "label": "Short Title"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "imagename",
+   "fieldtype": "Attach Image",
+   "label": "Image Name"
+  },
+  {
+   "fieldname": "minprice",
+   "fieldtype": "Data",
+   "label": "Min Price"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End date"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dealtype",
+   "fieldtype": "Select",
+   "label": "Deal Type",
+   "options": "Flights\nHotels\nVacation"
+  },
+  {
+   "depends_on": "eval:((doc.dealtype==\"Flights\")||(doc.dealtype==\"Vacation\"));",
+   "fetch_from": "Flight Airport list: airport_name",
+   "fieldname": "from_airport",
+   "fieldtype": "Link",
+   "label": "From airport*",
+   "options": "Flight Airport list"
+  },
+  {
+   "depends_on": "eval:((doc.dealtype==\"Flights\")||(doc.dealtype==\"Vacation\"));",
+   "fieldname": "to_airport",
+   "fieldtype": "Link",
+   "label": "To airport*",
+   "options": "Flight Airport list"
+  },
+  {
+   "depends_on": "eval:((doc.dealtype==\"Flights\")||(doc.dealtype==\"Vacation\"));",
+   "fieldname": "deal_carrier",
+   "fieldtype": "Link",
+   "label": "Deal Carrier",
+   "options": "Airline List"
+  },
+  {
+   "depends_on": "eval:((doc.dealtype==\"Hotel\"));",
+   "fieldname": "countries",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "API Country List"
+  },
+  {
+   "depends_on": "eval:((doc.dealtype==\"Hotels\")||(doc.dealtype==\"Vacation\"));",
+   "fieldname": "deal_city",
+   "fieldtype": "Link",
+   "label": "Deal City",
+   "options": "All Api City Master"
+  },
+  {
+   "depends_on": "eval:((doc.dealtype==\"Hotels\")||(doc.dealtype==\"Vacation\"));",
+   "fieldname": "deal_hotels",
+   "fieldtype": "Link",
+   "label": "Deal Hotel",
+   "options": "Halal Hotel List"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_featured",
+   "fieldtype": "Check",
+   "label": "Featured"
+  },
+  {
+   "default": "0",
+   "fieldname": "status",
+   "fieldtype": "Check",
+   "label": "Status"
+  },
+  {
+   "fieldname": "short_summary",
+   "fieldtype": "Long Text",
+   "label": "Short Summary"
+  },
+  {
+   "fieldname": "summary",
+   "fieldtype": "Long Text",
+   "label": "Summary"
+  },
+  {
+   "fieldname": "reviews",
+   "fieldtype": "Long Text",
+   "label": "Reviews"
+  },
+  {
+   "fieldname": "price_text",
+   "fieldtype": "Data",
+   "label": "Price Text"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Data",
+   "label": "Latitude"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Data",
+   "label": "Longitude"
+  },
+  {
+   "fieldname": "tags",
+   "fieldtype": "Data",
+   "label": "Tags"
+  },
+  {
+   "fieldname": "additional_tags",
+   "fieldtype": "Data",
+   "label": "Additional tags"
+  },
+  {
+   "fieldname": "created_at",
+   "fieldtype": "Data",
+   "label": "Time created"
+  },
+  {
+   "fieldname": "created_by",
+   "fieldtype": "Data",
+   "label": "Created By"
+  },
+  {
+   "fieldname": "deal_city_name",
+   "fieldtype": "Data",
+   "label": "Deal City Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "All Api City Master",
+   "link_fieldname": "city_name",
+   "table_fieldname": "location"
+  }
+ ],
+ "modified": "2021-10-07 09:32:49.876351",
+ "modified_by": "Administrator",
+ "module": "View Deals",
+ "name": "Deals",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

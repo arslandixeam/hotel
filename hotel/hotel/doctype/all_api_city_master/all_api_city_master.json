@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "autoname": "Api-City-.{city_name}.-.{country_name}.-.##########",
+ "creation": "2021-10-06 13:33:25.695293",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "origin",
+  "city_name",
+  "city_code",
+  "state",
+  "country_name",
+  "country_code",
+  "locality",
+  "region",
+  "subregion",
+  "location_name",
+  "latitude",
+  "longitude",
+  "city_id",
+  "cache_hotels_count",
+  "top_destination"
+ ],
+ "fields": [
+  {
+   "fieldname": "origin",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "origin"
+  },
+  {
+   "fieldname": "city_name",
+   "fieldtype": "Data",
+   "label": "City Name"
+  },
+  {
+   "fieldname": "city_code",
+   "fieldtype": "Data",
+   "label": "City Code"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "country_name",
+   "fieldtype": "Data",
+   "label": "Country Name"
+  },
+  {
+   "fieldname": "country_code",
+   "fieldtype": "Data",
+   "label": "Country Code",
+   "length": 9
+  },
+  {
+   "fieldname": "locality",
+   "fieldtype": "Data",
+   "label": "Locality"
+  },
+  {
+   "fieldname": "region",
+   "fieldtype": "Data",
+   "label": "Region"
+  },
+  {
+   "fieldname": "subregion",
+   "fieldtype": "Data",
+   "label": "Subregion"
+  },
+  {
+   "fieldname": "location_name",
+   "fieldtype": "Data",
+   "label": "Location Name"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Data",
+   "label": "Latitude"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Data",
+   "label": "Longitude"
+  },
+  {
+   "fieldname": "city_id",
+   "fieldtype": "Data",
+   "label": "City Id"
+  },
+  {
+   "fieldname": "cache_hotels_count",
+   "fieldtype": "Data",
+   "label": "Cache Hotels Count"
+  },
+  {
+   "fieldname": "top_destination",
+   "fieldtype": "Data",
+   "label": "Top Destination"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-06 14:42:30.130077",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "All Api City Master",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

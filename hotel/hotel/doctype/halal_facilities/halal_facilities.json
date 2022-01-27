@@ -1,0 +1,62 @@
+{
+ "_comments": "[]",
+ "_liked_by": "[]",
+ "actions": [],
+ "autoname": "HOTEL-FACILITIES-.##########",
+ "creation": "2021-05-19 13:26:11.856744",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "hotel_code",
+  "fac_ttl",
+  "fac_val"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "label": "ID"
+  },
+  {
+   "fieldname": "hotel_code",
+   "fieldtype": "Data",
+   "label": "Hotel Code"
+  },
+  {
+   "fieldname": "fac_ttl",
+   "fieldtype": "Data",
+   "label": "Facilities Title"
+  },
+  {
+   "fieldname": "fac_val",
+   "fieldtype": "Data",
+   "label": "Facilities Value"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-05 09:25:02.215954",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "Halal Facilities",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

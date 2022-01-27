@@ -1,0 +1,186 @@
+{
+ "actions": [],
+ "autoname": "HOTEL-.{hotel_name}.-.{city}.(.{country}.).##########",
+ "creation": "2021-05-19 13:23:20.533690",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "hotel_code",
+  "tp_vendor_code",
+  "tp_vendor_id",
+  "hb_hotel_code",
+  "hotel_name",
+  "stars",
+  "overview",
+  "board_basis",
+  "holiday_type",
+  "photo",
+  "country_code",
+  "location_name",
+  "city",
+  "tp_city",
+  "city_code",
+  "locality",
+  "subregion",
+  "region",
+  "country",
+  "latitude",
+  "longitude",
+  "halal_features",
+  "city_id",
+  "reviews"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "label": "ID"
+  },
+  {
+   "fieldname": "hotel_code",
+   "fieldtype": "Data",
+   "label": "Hotel Code"
+  },
+  {
+   "fieldname": "tp_vendor_code",
+   "fieldtype": "Data",
+   "label": "Tp Vendor Code"
+  },
+  {
+   "fieldname": "tp_vendor_id",
+   "fieldtype": "Data",
+   "label": "Tp Vendor Id"
+  },
+  {
+   "fieldname": "hb_hotel_code",
+   "fieldtype": "Data",
+   "label": "HB Hotel Code"
+  },
+  {
+   "fieldname": "hotel_name",
+   "fieldtype": "Data",
+   "label": "Hotel Name"
+  },
+  {
+   "fieldname": "stars",
+   "fieldtype": "Data",
+   "label": "Stars"
+  },
+  {
+   "fieldname": "overview",
+   "fieldtype": "Long Text",
+   "label": "Overview"
+  },
+  {
+   "fieldname": "board_basis",
+   "fieldtype": "Data",
+   "label": "Board Basis"
+  },
+  {
+   "fieldname": "holiday_type",
+   "fieldtype": "Data",
+   "label": "Holiday Type"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Data",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "country_code",
+   "fieldtype": "Data",
+   "label": "County Code"
+  },
+  {
+   "fieldname": "location_name",
+   "fieldtype": "Data",
+   "label": "Location Name"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "tp_city",
+   "fieldtype": "Data",
+   "label": "TP City"
+  },
+  {
+   "fieldname": "locality",
+   "fieldtype": "Data",
+   "label": "Locality"
+  },
+  {
+   "fieldname": "subregion",
+   "fieldtype": "Data",
+   "label": "Subregion"
+  },
+  {
+   "fieldname": "region",
+   "fieldtype": "Data",
+   "label": "Region"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "County"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Data",
+   "label": "Latitude"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Data",
+   "label": "Longitude"
+  },
+  {
+   "fieldname": "halal_features",
+   "fieldtype": "Data",
+   "label": "Halal Features"
+  },
+  {
+   "fieldname": "city_id",
+   "fieldtype": "Data",
+   "label": "City Id"
+  },
+  {
+   "fieldname": "reviews",
+   "fieldtype": "Data",
+   "label": "Reviews"
+  },
+  {
+   "fieldname": "city_code",
+   "fieldtype": "Data",
+   "label": "City Code"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-06 15:10:33.759214",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "Halal Hotel List",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

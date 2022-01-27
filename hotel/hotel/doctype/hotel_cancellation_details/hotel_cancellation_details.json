@@ -1,0 +1,149 @@
+{
+ "actions": [],
+ "creation": "2021-08-13 10:06:45.704624",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "origin",
+  "app_reference",
+  "changerequestid",
+  "changerequeststatus",
+  "status_description",
+  "api_refundedamount",
+  "api_cancellationcharge",
+  "cancellation_processed_on",
+  "refund_amount",
+  "cancellation_charge",
+  "refund_status",
+  "refund_payment_mode",
+  "refund_comments",
+  "refund_date",
+  "currency",
+  "currency_conversion_rate",
+  "attributes",
+  "created_by_id",
+  "created_datetime"
+ ],
+ "fields": [
+  {
+   "fieldname": "origin",
+   "fieldtype": "Data",
+   "label": "origin"
+  },
+  {
+   "fieldname": "app_reference",
+   "fieldtype": "Data",
+   "label": "app_reference"
+  },
+  {
+   "fieldname": "changerequestid",
+   "fieldtype": "Data",
+   "label": "ChangeRequestId"
+  },
+  {
+   "fieldname": "changerequeststatus",
+   "fieldtype": "Data",
+   "label": "ChangeRequestStatus"
+  },
+  {
+   "fieldname": "status_description",
+   "fieldtype": "Data",
+   "label": "status_description"
+  },
+  {
+   "fieldname": "api_refundedamount",
+   "fieldtype": "Data",
+   "label": "API_RefundedAmount"
+  },
+  {
+   "fieldname": "api_cancellationcharge",
+   "fieldtype": "Data",
+   "label": "API_CancellationCharge"
+  },
+  {
+   "fieldname": "cancellation_processed_on",
+   "fieldtype": "Data",
+   "label": "cancellation_processed_on"
+  },
+  {
+   "fieldname": "refund_amount",
+   "fieldtype": "Data",
+   "label": "refund_amount"
+  },
+  {
+   "fieldname": "cancellation_charge",
+   "fieldtype": "Data",
+   "label": "cancellation_charge"
+  },
+  {
+   "fieldname": "refund_status",
+   "fieldtype": "Data",
+   "label": "refund_status"
+  },
+  {
+   "fieldname": "refund_payment_mode",
+   "fieldtype": "Data",
+   "label": "refund_payment_mode"
+  },
+  {
+   "fieldname": "refund_comments",
+   "fieldtype": "Data",
+   "label": "refund_comments"
+  },
+  {
+   "fieldname": "refund_date",
+   "fieldtype": "Data",
+   "label": "refund_date"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "currency"
+  },
+  {
+   "fieldname": "currency_conversion_rate",
+   "fieldtype": "Data",
+   "label": "currency_conversion_rate"
+  },
+  {
+   "fieldname": "attributes",
+   "fieldtype": "Data",
+   "label": "attributes"
+  },
+  {
+   "fieldname": "created_by_id",
+   "fieldtype": "Data",
+   "label": "created_by_id"
+  },
+  {
+   "fieldname": "created_datetime",
+   "fieldtype": "Data",
+   "label": "created_datetime"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-05 09:25:07.729742",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "Hotel cancellation details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

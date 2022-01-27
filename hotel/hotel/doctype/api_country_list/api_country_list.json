@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "autoname": "COUNTRY-.{c_name}.-.##########",
+ "creation": "2021-06-26 12:02:17.754062",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "origin",
+  "api_continent_list_fk",
+  "c_name",
+  "country_code",
+  "iso_country_code"
+ ],
+ "fields": [
+  {
+   "fieldname": "origin",
+   "fieldtype": "Data",
+   "label": "Origin"
+  },
+  {
+   "fieldname": "api_continent_list_fk",
+   "fieldtype": "Data",
+   "label": "Api Continent list fk"
+  },
+  {
+   "fieldname": "c_name",
+   "fieldtype": "Data",
+   "label": "Country Name"
+  },
+  {
+   "fieldname": "country_code",
+   "fieldtype": "Data",
+   "label": "Country Code"
+  },
+  {
+   "fieldname": "iso_country_code",
+   "fieldtype": "Data",
+   "label": "ISO country Code"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-06 15:29:21.794733",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "API Country List",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

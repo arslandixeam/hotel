@@ -1,0 +1,238 @@
+{
+ "actions": [],
+ "autoname": "HOTEL-BOOKING-.##########",
+ "creation": "2021-05-17 13:02:25.021526",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "origin",
+  "domain_origin",
+  "status",
+  "app_reference",
+  "booking_source",
+  "booking_id",
+  "booking_reference",
+  "confirmation_reference",
+  "payment_refrence",
+  "hotel_name",
+  "star_rating",
+  "hotel_code",
+  "phone_number",
+  "alternate_number",
+  "email",
+  "hotel_check_in",
+  "hotel_check_out",
+  "payment_mode",
+  "convinence_value",
+  "convinence_value_type",
+  "convinence_per_pax",
+  "convinence_amount",
+  "promo_code",
+  "discount",
+  "currency",
+  "currency_conversion_rate",
+  "attributes",
+  "created_by_id",
+  "created_datetime",
+  "hb_supplier_code",
+  "hb_vat_number",
+  "api_response_data",
+  "booking_request_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "origin",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Origin",
+   "reqd": 1
+  },
+  {
+   "fieldname": "domain_origin",
+   "fieldtype": "Data",
+   "label": "Domain Origin"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "app_reference",
+   "fieldtype": "Data",
+   "label": "App Reference"
+  },
+  {
+   "fieldname": "booking_source",
+   "fieldtype": "Data",
+   "label": "Booking Source"
+  },
+  {
+   "fieldname": "booking_id",
+   "fieldtype": "Data",
+   "label": "Booking ID"
+  },
+  {
+   "fieldname": "booking_reference",
+   "fieldtype": "Data",
+   "label": "Booking Reference"
+  },
+  {
+   "fieldname": "confirmation_reference",
+   "fieldtype": "Data",
+   "label": "Confirmation Reference"
+  },
+  {
+   "fieldname": "payment_refrence",
+   "fieldtype": "Data",
+   "label": "Payment Refrence"
+  },
+  {
+   "fieldname": "hotel_name",
+   "fieldtype": "Data",
+   "label": "Hotel Name"
+  },
+  {
+   "fieldname": "star_rating",
+   "fieldtype": "Data",
+   "label": "Star Rating"
+  },
+  {
+   "fieldname": "hotel_code",
+   "fieldtype": "Data",
+   "label": "Hotel Code"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "alternate_number",
+   "fieldtype": "Data",
+   "label": "Alternate Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "hotel_check_in",
+   "fieldtype": "Data",
+   "label": "Hotel Check-In"
+  },
+  {
+   "fieldname": "hotel_check_out",
+   "fieldtype": "Data",
+   "label": "Hotel Check-Out"
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "Data",
+   "label": "Payment Mode"
+  },
+  {
+   "fieldname": "convinence_value",
+   "fieldtype": "Data",
+   "label": "Convinence Value"
+  },
+  {
+   "fieldname": "convinence_value_type",
+   "fieldtype": "Data",
+   "label": "Convinence Value Type"
+  },
+  {
+   "fieldname": "convinence_per_pax",
+   "fieldtype": "Data",
+   "label": "Convinence Per Pax"
+  },
+  {
+   "fieldname": "convinence_amount",
+   "fieldtype": "Data",
+   "label": "Convinence Amount"
+  },
+  {
+   "fieldname": "promo_code",
+   "fieldtype": "Data",
+   "label": "Promo Code"
+  },
+  {
+   "fieldname": "discount",
+   "fieldtype": "Data",
+   "label": "Discount"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "Currency"
+  },
+  {
+   "fieldname": "currency_conversion_rate",
+   "fieldtype": "Data",
+   "label": "Currency Conversion Rate"
+  },
+  {
+   "fieldname": "attributes",
+   "fieldtype": "Long Text",
+   "label": "Attributes"
+  },
+  {
+   "fieldname": "created_by_id",
+   "fieldtype": "Link",
+   "label": "Created By Id",
+   "options": "Web Users"
+  },
+  {
+   "fieldname": "created_datetime",
+   "fieldtype": "Data",
+   "label": "Created Datetime"
+  },
+  {
+   "fieldname": "hb_supplier_code",
+   "fieldtype": "Data",
+   "label": "Hb Supplier Code"
+  },
+  {
+   "fieldname": "hb_vat_number",
+   "fieldtype": "Data",
+   "label": "Hb Vat Number"
+  },
+  {
+   "fieldname": "api_response_data",
+   "fieldtype": "Long Text",
+   "label": "API Response Data"
+  },
+  {
+   "fieldname": "booking_request_id",
+   "fieldtype": "Link",
+   "label": "Booking Request ID",
+   "options": "Booking Request Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-01-11 12:37:30.472115",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "Hotel Booking",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

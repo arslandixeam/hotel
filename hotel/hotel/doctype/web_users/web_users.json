@@ -1,0 +1,210 @@
+{
+ "actions": [],
+ "autoname": "WEB-USERS-.##########",
+ "creation": "2021-06-24 14:46:54.663277",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user_id",
+  "domain_list_fk",
+  "uuid",
+  "user_type",
+  "email",
+  "user_name",
+  "password",
+  "status",
+  "date_of_birth",
+  "image",
+  "title",
+  "agency_name",
+  "agent_name",
+  "first_name",
+  "last_name",
+  "address",
+  "state",
+  "city",
+  "pin_code",
+  "country_code",
+  "phone",
+  "office_phone",
+  "pan_number",
+  "pan_holdername",
+  "creation_source",
+  "created_datetime",
+  "created_by_id",
+  "language_preference",
+  "terms_conditions"
+ ],
+ "fields": [
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Data",
+   "label": "User Id"
+  },
+  {
+   "fieldname": "domain_list_fk",
+   "fieldtype": "Data",
+   "label": "Domain List FK"
+  },
+  {
+   "fieldname": "uuid",
+   "fieldtype": "Data",
+   "label": "UUID"
+  },
+  {
+   "fieldname": "user_type",
+   "fieldtype": "Data",
+   "label": "User Type"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "user_name",
+   "fieldtype": "Data",
+   "label": "Username"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Data",
+   "label": "Password"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Data",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Data",
+   "label": "Image"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "agency_name",
+   "fieldtype": "Data",
+   "label": "Agency Name"
+  },
+  {
+   "fieldname": "agent_name",
+   "fieldtype": "Data",
+   "label": "Agent Name "
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "pin_code",
+   "fieldtype": "Data",
+   "label": "Pin Code"
+  },
+  {
+   "fieldname": "country_code",
+   "fieldtype": "Data",
+   "label": "Country code"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "office_phone",
+   "fieldtype": "Data",
+   "label": "Office Phone"
+  },
+  {
+   "fieldname": "pan_number",
+   "fieldtype": "Data",
+   "label": "Pan Number"
+  },
+  {
+   "fieldname": "pan_holdername",
+   "fieldtype": "Data",
+   "label": "Pan Holdername"
+  },
+  {
+   "fieldname": "creation_source",
+   "fieldtype": "Data",
+   "label": "Creation Source"
+  },
+  {
+   "fieldname": "created_datetime",
+   "fieldtype": "Data",
+   "label": "Created Datetime"
+  },
+  {
+   "fieldname": "created_by_id",
+   "fieldtype": "Data",
+   "label": "Created By Id"
+  },
+  {
+   "fieldname": "language_preference",
+   "fieldtype": "Data",
+   "label": "Language preference"
+  },
+  {
+   "fieldname": "terms_conditions",
+   "fieldtype": "Data",
+   "label": "Terms conditions"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-05 09:25:04.925256",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "Web Users",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

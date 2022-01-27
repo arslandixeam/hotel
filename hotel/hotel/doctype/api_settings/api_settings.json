@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "autoname": "API-SETTINGS-.##########",
+ "creation": "2021-12-03 16:15:41.934704",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "targetbranch",
+  "username",
+  "password",
+  "url",
+  "traceid"
+ ],
+ "fields": [
+  {
+   "fieldname": "targetbranch",
+   "fieldtype": "Text",
+   "label": "TargetBranch"
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Text",
+   "label": "Username"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Text",
+   "label": "Password"
+  },
+  {
+   "fieldname": "url",
+   "fieldtype": "Text",
+   "label": "URL"
+  },
+  {
+   "fieldname": "traceid",
+   "fieldtype": "Text",
+   "label": "TraceID"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-12-21 14:07:08.974750",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "API Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

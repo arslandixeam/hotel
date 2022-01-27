@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "autoname": "HOTEL-REVIEWS-.##########",
+ "creation": "2021-05-19 13:29:59.630195",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "user_id",
+  "hotel_id",
+  "hotel_reviews",
+  "ratings",
+  "star_ratings",
+  "review_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "label": "ID"
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Data",
+   "label": "User Id"
+  },
+  {
+   "fieldname": "hotel_id",
+   "fieldtype": "Data",
+   "label": "Hotel Id"
+  },
+  {
+   "fieldname": "hotel_reviews",
+   "fieldtype": "Data",
+   "label": "Hotel Reviews"
+  },
+  {
+   "fieldname": "ratings",
+   "fieldtype": "Data",
+   "label": "Ratings"
+  },
+  {
+   "fieldname": "star_ratings",
+   "fieldtype": "Data",
+   "label": "Star Rating"
+  },
+  {
+   "fieldname": "review_date",
+   "fieldtype": "Data",
+   "label": "Review Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-05 09:25:03.840320",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "Hotel Reviews",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "creation": "2021-07-28 15:23:30.421787",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "origin",
+  "domain_origin",
+  "search_type",
+  "booking_source",
+  "country",
+  "city",
+  "check_in",
+  "nights",
+  "rooms",
+  "total_pax",
+  "created_by_id",
+  "created_datetime"
+ ],
+ "fields": [
+  {
+   "fieldname": "origin",
+   "fieldtype": "Data",
+   "label": "origin"
+  },
+  {
+   "fieldname": "domain_origin",
+   "fieldtype": "Data",
+   "label": "domain_origin"
+  },
+  {
+   "fieldname": "search_type",
+   "fieldtype": "Data",
+   "label": "search_type"
+  },
+  {
+   "fieldname": "booking_source",
+   "fieldtype": "Data",
+   "label": "booking_source"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "country"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "city"
+  },
+  {
+   "fieldname": "check_in",
+   "fieldtype": "Data",
+   "label": "check_in"
+  },
+  {
+   "fieldname": "nights",
+   "fieldtype": "Data",
+   "label": "nights"
+  },
+  {
+   "fieldname": "rooms",
+   "fieldtype": "Data",
+   "label": "rooms"
+  },
+  {
+   "fieldname": "total_pax",
+   "fieldtype": "Data",
+   "label": "total_pax"
+  },
+  {
+   "fieldname": "created_by_id",
+   "fieldtype": "Data",
+   "label": "created_by_id"
+  },
+  {
+   "fieldname": "created_datetime",
+   "fieldtype": "Data",
+   "label": "created_datetime"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-05 09:25:06.662849",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "search hotel history",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

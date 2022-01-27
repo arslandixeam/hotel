@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "autoname": "AIRPORT-.{airport_name}.(.{airport_code}.).-.{airport_city}.(.{country_code}.)-.##########",
+ "creation": "2021-05-25 12:33:51.073771",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "origin",
+  "airport_code",
+  "airport_name",
+  "airport_city",
+  "country",
+  "country_code",
+  "top_destination",
+  "image",
+  "city_code",
+  "is_depricated",
+  "coordinates"
+ ],
+ "fields": [
+  {
+   "fieldname": "origin",
+   "fieldtype": "Data",
+   "label": "Origin"
+  },
+  {
+   "fieldname": "airport_code",
+   "fieldtype": "Data",
+   "label": "Airport Code"
+  },
+  {
+   "fieldname": "airport_name",
+   "fieldtype": "Data",
+   "label": "Airport Name"
+  },
+  {
+   "fieldname": "airport_city",
+   "fieldtype": "Data",
+   "label": "Airport city"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "country_code",
+   "fieldtype": "Data",
+   "label": "Country Code"
+  },
+  {
+   "fieldname": "top_destination",
+   "fieldtype": "Data",
+   "label": "Top Destination"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Data",
+   "label": "Image"
+  },
+  {
+   "fieldname": "city_code",
+   "fieldtype": "Data",
+   "label": "City Code"
+  },
+  {
+   "fieldname": "is_depricated",
+   "fieldtype": "Data",
+   "label": "Depricated"
+  },
+  {
+   "fieldname": "coordinates",
+   "fieldtype": "Geolocation",
+   "label": "Coordinates"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-07 13:08:00.562870",
+ "modified_by": "Administrator",
+ "module": "Flight",
+ "name": "Flight Airport list",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

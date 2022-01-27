@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 from . import __version__ as app_version
 
 app_name = "hotel"
@@ -5,7 +7,7 @@ app_title = "Hotel"
 app_publisher = "Arslan sheikh"
 app_description = "Halal Api hotels"
 app_icon = "octicon octicon-file-directory"
-app_color = "grey"
+app_color = "white"
 app_email = "arslan.dixeam50@gmail.com"
 app_license = "MIT"
 
@@ -165,11 +167,4 @@ user_data_fields = [
 		"doctype": "{doctype_4}"
 	}
 ]
-
-# Authentication and authorization
-# --------------------------------
-
-# auth_hooks = [
-# 	"hotel.auth.validate"
-# ]
 

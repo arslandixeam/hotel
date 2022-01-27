@@ -1,0 +1,168 @@
+{
+ "actions": [],
+ "autoname": "DOMAIN-LIST-.#######",
+ "creation": "2021-08-11 16:39:44.679559",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "origin",
+  "balance",
+  "currency_converter_fk",
+  "domain_name",
+  "domain_ip",
+  "domain_key",
+  "theme_id",
+  "b2b_theme_id",
+  "status",
+  "comment",
+  "domain_logo",
+  "created_by_id",
+  "created_datetime",
+  "test_username",
+  "test_password",
+  "live_username",
+  "live_password",
+  "phone",
+  "email",
+  "address",
+  "api_country_list_fk",
+  "api_city_list_fk"
+ ],
+ "fields": [
+  {
+   "fieldname": "origin",
+   "fieldtype": "Data",
+   "label": "Origin"
+  },
+  {
+   "fieldname": "balance",
+   "fieldtype": "Data",
+   "label": "Balance"
+  },
+  {
+   "fieldname": "currency_converter_fk",
+   "fieldtype": "Data",
+   "label": "Currency Converter Fk"
+  },
+  {
+   "fieldname": "domain_name",
+   "fieldtype": "Data",
+   "label": "Domain Name"
+  },
+  {
+   "fieldname": "domain_ip",
+   "fieldtype": "Data",
+   "label": "Domain Ip"
+  },
+  {
+   "fieldname": "domain_key",
+   "fieldtype": "Data",
+   "label": "Domain Key"
+  },
+  {
+   "fieldname": "theme_id",
+   "fieldtype": "Data",
+   "label": "Theme Id"
+  },
+  {
+   "fieldname": "b2b_theme_id",
+   "fieldtype": "Data",
+   "label": "B2b Theme Id"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Data",
+   "label": "Comment"
+  },
+  {
+   "fieldname": "domain_logo",
+   "fieldtype": "Data",
+   "label": "Domain Logo"
+  },
+  {
+   "fieldname": "created_by_id",
+   "fieldtype": "Data",
+   "label": "Created By Id"
+  },
+  {
+   "fieldname": "created_datetime",
+   "fieldtype": "Data",
+   "label": "Created Datetime"
+  },
+  {
+   "fieldname": "test_username",
+   "fieldtype": "Data",
+   "label": "Test Username"
+  },
+  {
+   "fieldname": "test_password",
+   "fieldtype": "Data",
+   "label": "Test Password"
+  },
+  {
+   "fieldname": "live_username",
+   "fieldtype": "Data",
+   "label": "Live Username"
+  },
+  {
+   "fieldname": "live_password",
+   "fieldtype": "Data",
+   "label": "Live Password"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "api_country_list_fk",
+   "fieldtype": "Data",
+   "label": "Api Country List Fk"
+  },
+  {
+   "fieldname": "api_city_list_fk",
+   "fieldtype": "Data",
+   "label": "Api City List Fk"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-05 09:25:07.341455",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "Domain list",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

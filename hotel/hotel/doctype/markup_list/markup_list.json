@@ -1,0 +1,96 @@
+{
+ "actions": [],
+ "autoname": "MARKUP-LIST-.#####",
+ "creation": "2021-06-22 09:54:36.934688",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "origin",
+  "markup_level",
+  "type",
+  "module_type",
+  "reference_id",
+  "value",
+  "value_type",
+  "domain_list_fk",
+  "markup_currency",
+  "user_oid"
+ ],
+ "fields": [
+  {
+   "fieldname": "origin",
+   "fieldtype": "Data",
+   "label": "Origin"
+  },
+  {
+   "fieldname": "markup_level",
+   "fieldtype": "Data",
+   "label": "Markup Level"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "module_type",
+   "fieldtype": "Data",
+   "label": "Module Type"
+  },
+  {
+   "fieldname": "reference_id",
+   "fieldtype": "Data",
+   "label": "Reference ID"
+  },
+  {
+   "fieldname": "value",
+   "fieldtype": "Data",
+   "label": "Value"
+  },
+  {
+   "fieldname": "value_type",
+   "fieldtype": "Data",
+   "label": "Value Type"
+  },
+  {
+   "fieldname": "domain_list_fk",
+   "fieldtype": "Data",
+   "label": "Domain FK List"
+  },
+  {
+   "fieldname": "markup_currency",
+   "fieldtype": "Data",
+   "label": "Markup Currency"
+  },
+  {
+   "fieldname": "user_oid",
+   "fieldtype": "Data",
+   "label": "User oid"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-05 09:25:04.110746",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "Markup List",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

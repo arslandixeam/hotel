@@ -1,0 +1,198 @@
+{
+ "actions": [],
+ "autoname": "HOTEL-ITINERARY-.##########",
+ "creation": "2021-05-18 13:07:29.448918",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "origin",
+  "app_reference",
+  "location",
+  "check_in",
+  "check_out",
+  "room_type_name",
+  "bed_type_code",
+  "status",
+  "smoking_preference",
+  "total_fare",
+  "site_commision",
+  "travelport_fair",
+  "admin_markup",
+  "agent_markup",
+  "currency",
+  "attributes",
+  "roomprice",
+  "tax",
+  "extraguestcharge",
+  "childcharge",
+  "othercharges",
+  "discount",
+  "servicetax",
+  "agentcommission",
+  "agentmarkup",
+  "tds",
+  "gst"
+ ],
+ "fields": [
+  {
+   "fieldname": "origin",
+   "fieldtype": "Data",
+   "label": "Origin"
+  },
+  {
+   "fieldname": "app_reference",
+   "fieldtype": "Data",
+   "label": "App Reference"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "check_in",
+   "fieldtype": "Data",
+   "label": "Check In"
+  },
+  {
+   "fieldname": "check_out",
+   "fieldtype": "Data",
+   "label": "Check Out"
+  },
+  {
+   "fieldname": "room_type_name",
+   "fieldtype": "Data",
+   "label": "Room Type Name"
+  },
+  {
+   "fieldname": "bed_type_code",
+   "fieldtype": "Data",
+   "label": "Bed Type Code"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "smoking_preference",
+   "fieldtype": "Data",
+   "label": "Smoking Preference"
+  },
+  {
+   "fieldname": "total_fare",
+   "fieldtype": "Data",
+   "label": "Total Fare"
+  },
+  {
+   "fieldname": "site_commision",
+   "fieldtype": "Data",
+   "label": "Site Commision"
+  },
+  {
+   "fieldname": "travelport_fair",
+   "fieldtype": "Data",
+   "label": "Travelport Fair"
+  },
+  {
+   "fieldname": "admin_markup",
+   "fieldtype": "Data",
+   "label": "Admin Markup"
+  },
+  {
+   "fieldname": "agent_markup",
+   "fieldtype": "Data",
+   "label": "Agent Markup"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "Currency"
+  },
+  {
+   "fieldname": "attributes",
+   "fieldtype": "Data",
+   "label": "Attributes"
+  },
+  {
+   "fieldname": "roomprice",
+   "fieldtype": "Data",
+   "label": "Room Price"
+  },
+  {
+   "fieldname": "tax",
+   "fieldtype": "Data",
+   "label": "Tax"
+  },
+  {
+   "fieldname": "extraguestcharge",
+   "fieldtype": "Data",
+   "label": "Extra Guest Charge"
+  },
+  {
+   "fieldname": "childcharge",
+   "fieldtype": "Data",
+   "label": "Child Charge"
+  },
+  {
+   "fieldname": "othercharges",
+   "fieldtype": "Data",
+   "label": "Other Charges"
+  },
+  {
+   "fieldname": "discount",
+   "fieldtype": "Data",
+   "label": "Discount"
+  },
+  {
+   "fieldname": "servicetax",
+   "fieldtype": "Data",
+   "label": "Service Tax"
+  },
+  {
+   "fieldname": "agentcommission",
+   "fieldtype": "Data",
+   "label": "Agent Commission"
+  },
+  {
+   "fieldname": "agentmarkup",
+   "fieldtype": "Data",
+   "label": "Agent MarkUp"
+  },
+  {
+   "fieldname": "tds",
+   "fieldtype": "Data",
+   "label": "TDS"
+  },
+  {
+   "fieldname": "gst",
+   "fieldtype": "Data",
+   "label": "GST"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-05 09:25:02.539670",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "Hotel Booking Itinerary Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

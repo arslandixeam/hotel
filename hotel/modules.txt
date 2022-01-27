@@ -1,1 +1,4 @@
 Hotel
+Airline
+Flight
+View Deals

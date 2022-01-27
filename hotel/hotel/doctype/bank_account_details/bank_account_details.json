@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "autoname": "BANK-ACCOUNT-.##########",
+ "creation": "2021-05-19 12:27:02.087102",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "origin",
+  "status",
+  "en_account_name",
+  "en_bank_name",
+  "en_branch_name",
+  "bank_icon",
+  "account_number",
+  "ifsc_code",
+  "pan_number",
+  "domain_list_fk",
+  "created_by_id",
+  "created_datetime",
+  "updated_by_id",
+  "updated_datetime"
+ ],
+ "fields": [
+  {
+   "fieldname": "origin",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Origin"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "en_account_name",
+   "fieldtype": "Data",
+   "label": "Account Name"
+  },
+  {
+   "fieldname": "en_bank_name",
+   "fieldtype": "Data",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "en_branch_name",
+   "fieldtype": "Data",
+   "label": "Branch Name"
+  },
+  {
+   "fieldname": "bank_icon",
+   "fieldtype": "Data",
+   "label": "Bank Icon"
+  },
+  {
+   "fieldname": "account_number",
+   "fieldtype": "Data",
+   "label": "Account Number"
+  },
+  {
+   "fieldname": "ifsc_code",
+   "fieldtype": "Data",
+   "label": "IFSC Code"
+  },
+  {
+   "fieldname": "pan_number",
+   "fieldtype": "Data",
+   "label": "Pan Number"
+  },
+  {
+   "fieldname": "domain_list_fk",
+   "fieldtype": "Data",
+   "label": "Domain List FK"
+  },
+  {
+   "fieldname": "created_by_id",
+   "fieldtype": "Data",
+   "label": "Created By Id"
+  },
+  {
+   "fieldname": "created_datetime",
+   "fieldtype": "Data",
+   "label": "Created Datetime"
+  },
+  {
+   "fieldname": "updated_by_id",
+   "fieldtype": "Data",
+   "label": "Updated By Id"
+  },
+  {
+   "fieldname": "updated_datetime",
+   "fieldtype": "Data",
+   "label": "Updated Datetime"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-05 09:25:01.283215",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "Bank Account Details",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

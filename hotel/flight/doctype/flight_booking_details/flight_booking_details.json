@@ -1,0 +1,230 @@
+{
+ "actions": [],
+ "autoname": "FLIGHT-BOOKING-.##########",
+ "creation": "2021-05-25 12:45:55.431268",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "origin",
+  "domain_origin",
+  "payment_refrence",
+  "status",
+  "app_reference",
+  "booking_source",
+  "trip_type",
+  "phone",
+  "alternate_number",
+  "email",
+  "journey_start",
+  "journey_end",
+  "journey_from",
+  "journey_to",
+  "from_loc",
+  "to_loc",
+  "cabin_class",
+  "payment_mode",
+  "convinence_value",
+  "convinence_value_type",
+  "convinence_per_pax",
+  "convinence_amount",
+  "discount",
+  "promo_code",
+  "currency",
+  "currency_conversion_rate",
+  "attributes",
+  "gst_details",
+  "flight_request_id",
+  "created_by_id",
+  "created_datetime",
+  "xml_response"
+ ],
+ "fields": [
+  {
+   "fieldname": "origin",
+   "fieldtype": "Data",
+   "label": "Origin"
+  },
+  {
+   "fieldname": "domain_origin",
+   "fieldtype": "Data",
+   "label": "Domain origin"
+  },
+  {
+   "fieldname": "payment_refrence",
+   "fieldtype": "Data",
+   "label": "Payment refrence"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "app_reference",
+   "fieldtype": "Data",
+   "label": "App refrence"
+  },
+  {
+   "fieldname": "booking_source",
+   "fieldtype": "Data",
+   "label": "Booking Source"
+  },
+  {
+   "fieldname": "trip_type",
+   "fieldtype": "Data",
+   "label": "Trip Type"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "alternate_number",
+   "fieldtype": "Data",
+   "label": "Alternate Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "journey_start",
+   "fieldtype": "Data",
+   "label": "Journey start"
+  },
+  {
+   "fieldname": "journey_end",
+   "fieldtype": "Data",
+   "label": "Journery end"
+  },
+  {
+   "fieldname": "journey_from",
+   "fieldtype": "Data",
+   "label": "Journey From"
+  },
+  {
+   "fieldname": "journey_to",
+   "fieldtype": "Data",
+   "label": "Journey To"
+  },
+  {
+   "fieldname": "from_loc",
+   "fieldtype": "Data",
+   "label": "From Location"
+  },
+  {
+   "fieldname": "to_loc",
+   "fieldtype": "Data",
+   "label": "To Location"
+  },
+  {
+   "fieldname": "cabin_class",
+   "fieldtype": "Data",
+   "label": "Cabin Class"
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "Data",
+   "label": "Payment Mode"
+  },
+  {
+   "fieldname": "convinence_value",
+   "fieldtype": "Data",
+   "label": "Convinence value"
+  },
+  {
+   "fieldname": "convinence_value_type",
+   "fieldtype": "Data",
+   "label": "Convinence value type"
+  },
+  {
+   "fieldname": "convinence_per_pax",
+   "fieldtype": "Data",
+   "label": "Convinence per pax"
+  },
+  {
+   "fieldname": "convinence_amount",
+   "fieldtype": "Data",
+   "label": "Convinence amount"
+  },
+  {
+   "fieldname": "discount",
+   "fieldtype": "Data",
+   "label": "Discount"
+  },
+  {
+   "fieldname": "promo_code",
+   "fieldtype": "Data",
+   "label": "Promo Code"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "Currency"
+  },
+  {
+   "fieldname": "currency_conversion_rate",
+   "fieldtype": "Data",
+   "label": "Currency conversion rate"
+  },
+  {
+   "fieldname": "attributes",
+   "fieldtype": "Long Text",
+   "label": "Attributes"
+  },
+  {
+   "fieldname": "gst_details",
+   "fieldtype": "Data",
+   "label": "GST details"
+  },
+  {
+   "fieldname": "flight_request_id",
+   "fieldtype": "Link",
+   "label": "Flight request id",
+   "options": "Booking Request Details"
+  },
+  {
+   "fieldname": "created_by_id",
+   "fieldtype": "Link",
+   "label": "Created by Id",
+   "options": "Web Users"
+  },
+  {
+   "fieldname": "created_datetime",
+   "fieldtype": "Data",
+   "label": "Created datetime"
+  },
+  {
+   "fieldname": "xml_response",
+   "fieldtype": "Long Text",
+   "label": "XML response"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-02-01 10:11:23.146145",
+ "modified_by": "Administrator",
+ "module": "Flight",
+ "name": "Flight booking details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,36 @@
+{
+ "actions": [],
+ "creation": "2022-02-01 22:46:22.071340",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "hotel_name",
+  "create_document"
+ ],
+ "fields": [
+  {
+   "fieldname": "hotel_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Hotel Name"
+  },
+  {
+   "fieldname": "create_document",
+   "fieldtype": "Button",
+   "label": "Create Document"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-02-01 22:50:30.801612",
+ "modified_by": "Administrator",
+ "module": "Hotel",
+ "name": "Travel Port Hotel Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

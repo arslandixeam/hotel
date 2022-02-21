@@ -21,7 +21,8 @@
   "reference_point",
   "phones",
   "hotel_address_1",
-  "is_valid"
+  "is_valid",
+  "status"
  ],
  "fields": [
   {
@@ -103,11 +104,20 @@
    "fieldname": "is_valid",
    "fieldtype": "Data",
    "label": "Valid"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Not Imported\nImported",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-10-05 09:25:03.500918",
+ "modified": "2022-02-21 16:43:16.412357",
  "modified_by": "Administrator",
  "module": "Hotel",
  "name": "Travelport Hotels",

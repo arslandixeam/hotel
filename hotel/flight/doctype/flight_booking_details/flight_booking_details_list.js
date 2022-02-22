@@ -1,17 +1,15 @@
 frappe.listview_settings["Flight booking details"] = {
-	
-	onload: function(doclist) {
-		const action = () => {
-			const selected_docs = doclist.get_checked_items();
+  onload: function (doclist) {
+    const action = () => {
+      const selected_docs = doclist.get_checked_items();
       // Selected Documents
-			for (let doc of selected_docs) {
-				console.log(doc.name);
-			}
-	
-		};
-		doclist.page.add_actions_menu_item(__('Send Mail'), action, false);
-	},
-	button: {
+      for (let doc of selected_docs) {
+        console.log(doc.name);
+      }
+    };
+    doclist.page.add_actions_menu_item(__("Send Mail"), action, false);
+  },
+  button: {
     show(doc) {
       return true;
     },
@@ -24,7 +22,7 @@ frappe.listview_settings["Flight booking details"] = {
     action(doc) {
       // Route to the Default Print Format
       //window.open();
-      frappe.set_route('printview','Flight booking details',doc.name);
+      frappe.set_route("printview", "Flight booking details", doc.name);
     },
   },
 };

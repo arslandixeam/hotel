@@ -22,7 +22,11 @@
   "phones",
   "hotel_address_1",
   "is_valid",
-  "status"
+  "status",
+  "city",
+  "country",
+  "latitude",
+  "longitude"
  ],
  "fields": [
   {
@@ -63,7 +67,8 @@
   {
    "fieldname": "hotel_code",
    "fieldtype": "Data",
-   "label": "Hotel Code"
+   "label": "Hotel Code",
+   "unique": 1
   },
   {
    "fieldname": "hotel_location",
@@ -113,11 +118,31 @@
    "label": "Status",
    "options": "Not Imported\nImported",
    "read_only": 1
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Data",
+   "label": "Latitude"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Data",
+   "label": "Longitude"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-21 16:43:16.412357",
+ "modified": "2022-02-22 16:02:13.484887",
  "modified_by": "Administrator",
  "module": "Hotel",
  "name": "Travelport Hotels",

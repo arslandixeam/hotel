@@ -30,7 +30,18 @@
   "longitude",
   "halal_features",
   "city_id",
-  "reviews"
+  "reviews",
+  "tp_hotel_address",
+  "tp_units",
+  "tp_value",
+  "tp_direction",
+  "tp_hotel_chain",
+  "tp_reserve_requirement",
+  "tp_avalability",
+  "tp_reference_point",
+  "tp_phones",
+  "tp_hotel_address_1",
+  "tp_valid"
  ],
  "fields": [
   {
@@ -41,7 +52,8 @@
   {
    "fieldname": "hotel_code",
    "fieldtype": "Data",
-   "label": "Hotel Code"
+   "label": "Hotel Code",
+   "unique": 1
   },
   {
    "fieldname": "tp_vendor_code",
@@ -79,6 +91,7 @@
    "label": "Board Basis"
   },
   {
+   "default": "Hotel",
    "fieldname": "holiday_type",
    "fieldtype": "Data",
    "label": "Holiday Type"
@@ -145,8 +158,9 @@
   },
   {
    "fieldname": "city_id",
-   "fieldtype": "Data",
-   "label": "City Id"
+   "fieldtype": "Link",
+   "label": "City Id",
+   "options": "All Api City Master"
   },
   {
    "fieldname": "reviews",
@@ -157,11 +171,66 @@
    "fieldname": "city_code",
    "fieldtype": "Data",
    "label": "City Code"
+  },
+  {
+   "fieldname": "tp_hotel_address",
+   "fieldtype": "Data",
+   "label": "TP Hotel Address"
+  },
+  {
+   "fieldname": "tp_units",
+   "fieldtype": "Data",
+   "label": "TP Units"
+  },
+  {
+   "fieldname": "tp_value",
+   "fieldtype": "Data",
+   "label": "TP Value"
+  },
+  {
+   "fieldname": "tp_direction",
+   "fieldtype": "Data",
+   "label": "TP Direction"
+  },
+  {
+   "fieldname": "tp_hotel_chain",
+   "fieldtype": "Data",
+   "label": "TP Hotel Chain"
+  },
+  {
+   "fieldname": "tp_reserve_requirement",
+   "fieldtype": "Data",
+   "label": "TP Reserve Requirement"
+  },
+  {
+   "fieldname": "tp_avalability",
+   "fieldtype": "Data",
+   "label": "TP Avalability"
+  },
+  {
+   "fieldname": "tp_reference_point",
+   "fieldtype": "Data",
+   "label": "TP Reference Point"
+  },
+  {
+   "fieldname": "tp_phones",
+   "fieldtype": "Data",
+   "label": "TP Phones"
+  },
+  {
+   "fieldname": "tp_hotel_address_1",
+   "fieldtype": "Data",
+   "label": "TP Hotel Address 1"
+  },
+  {
+   "fieldname": "tp_valid",
+   "fieldtype": "Data",
+   "label": "Tp Valid"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-10-06 15:10:33.759214",
+ "modified": "2022-02-22 16:17:17.916163",
  "modified_by": "Administrator",
  "module": "Hotel",
  "name": "Halal Hotel List",

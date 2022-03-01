@@ -84,9 +84,5 @@ const send_email = (doc) => {
       read_receipt: 0,
       print_letterhead: 1,
     },
-    callback() {
-      frappe.show_alert("Email sent successfully.")
-    },
-
   })
 }

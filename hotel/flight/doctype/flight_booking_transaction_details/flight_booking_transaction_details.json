@@ -1,0 +1,186 @@
+{
+ "actions": [],
+ "autoname": "FLIGHT-TRANSACTION-.##########",
+ "creation": "2021-05-25 13:06:11.646427",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "origin",
+  "app_reference",
+  "pnr",
+  "status",
+  "status_description",
+  "book_id",
+  "gds_pnr",
+  "source",
+  "ref_id",
+  "total_fare",
+  "admin_commission",
+  "agent_commission",
+  "admin_tds",
+  "agent_tds",
+  "admin_markup",
+  "agent_markup",
+  "gst",
+  "currency",
+  "user_id",
+  "getbooking_statuscode",
+  "getbooking_description",
+  "getbooking_category",
+  "attributes",
+  "sequence_number",
+  "hold_ticket_req_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "origin",
+   "fieldtype": "Data",
+   "label": "Origin"
+  },
+  {
+   "fieldname": "app_reference",
+   "fieldtype": "Data",
+   "label": "App reference"
+  },
+  {
+   "fieldname": "pnr",
+   "fieldtype": "Data",
+   "label": "PNR"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "status_description",
+   "fieldtype": "Data",
+   "label": "Status Description"
+  },
+  {
+   "fieldname": "book_id",
+   "fieldtype": "Data",
+   "label": "Book id"
+  },
+  {
+   "fieldname": "gds_pnr",
+   "fieldtype": "Data",
+   "label": "GDS PNR"
+  },
+  {
+   "fieldname": "source",
+   "fieldtype": "Data",
+   "label": "Source"
+  },
+  {
+   "fieldname": "ref_id",
+   "fieldtype": "Data",
+   "label": "Ref Id"
+  },
+  {
+   "fieldname": "total_fare",
+   "fieldtype": "Data",
+   "label": "Total Fare"
+  },
+  {
+   "fieldname": "admin_commission",
+   "fieldtype": "Data",
+   "label": "Admin commision"
+  },
+  {
+   "fieldname": "agent_commission",
+   "fieldtype": "Data",
+   "label": "Agent commission"
+  },
+  {
+   "fieldname": "admin_tds",
+   "fieldtype": "Data",
+   "label": "Admin TDS"
+  },
+  {
+   "fieldname": "agent_tds",
+   "fieldtype": "Data",
+   "label": "Agent TDS"
+  },
+  {
+   "fieldname": "admin_markup",
+   "fieldtype": "Data",
+   "label": "Admin Markup"
+  },
+  {
+   "fieldname": "agent_markup",
+   "fieldtype": "Data",
+   "label": "Agent Markup"
+  },
+  {
+   "fieldname": "gst",
+   "fieldtype": "Data",
+   "label": "GST"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "Currency"
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Data",
+   "label": "User Id"
+  },
+  {
+   "fieldname": "getbooking_statuscode",
+   "fieldtype": "Data",
+   "label": "getbooking StatusCode"
+  },
+  {
+   "fieldname": "getbooking_description",
+   "fieldtype": "Data",
+   "label": "getbooking Description"
+  },
+  {
+   "fieldname": "getbooking_category",
+   "fieldtype": "Data",
+   "label": "getbooking Category"
+  },
+  {
+   "fieldname": "attributes",
+   "fieldtype": "Data",
+   "label": "Attributes"
+  },
+  {
+   "fieldname": "sequence_number",
+   "fieldtype": "Data",
+   "label": "Sequence number"
+  },
+  {
+   "fieldname": "hold_ticket_req_status",
+   "fieldtype": "Data",
+   "label": "Hold ticket req status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-03 14:57:54.971271",
+ "modified_by": "Administrator",
+ "module": "Flight",
+ "name": "Flight booking transaction details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

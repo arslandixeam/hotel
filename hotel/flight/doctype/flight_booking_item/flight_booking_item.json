@@ -10,6 +10,7 @@
   "cabin",
   "column_break_3",
   "tk_no",
+  "airline_code",
   "departing_section",
   "departing_airport",
   "column_break_7",
@@ -81,12 +82,17 @@
    "fieldname": "ariving_time",
    "fieldtype": "Data",
    "label": "Ariving Time"
+  },
+  {
+   "fieldname": "airline_code",
+   "fieldtype": "Data",
+   "label": "Airline Code"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-03-03 17:38:10.393083",
+ "modified": "2022-03-03 20:36:12.003895",
  "modified_by": "Administrator",
  "module": "Flight",
  "name": "Flight Booking Item",

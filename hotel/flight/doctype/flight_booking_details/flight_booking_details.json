@@ -37,7 +37,9 @@
   "flight_request_id",
   "created_by_id",
   "created_datetime",
-  "xml_response"
+  "xml_response",
+  "items",
+  "passengers"
  ],
  "fields": [
   {
@@ -201,11 +203,25 @@
    "fieldname": "xml_response",
    "fieldtype": "Long Text",
    "label": "XML response"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "items",
+   "options": "Flight Booking Item",
+   "read_only": 1
+  },
+  {
+   "fieldname": "passengers",
+   "fieldtype": "Table",
+   "label": "passengers",
+   "options": "Flight Booking Passenger",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-01 18:26:51.556036",
+ "modified": "2022-03-03 16:56:48.345175",
  "modified_by": "Administrator",
  "module": "Flight",
  "name": "Flight booking details",

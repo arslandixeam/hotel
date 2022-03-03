@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-03-03 14:35:26.904931",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "airline",
+  "cabin",
+  "column_break_3",
+  "tk_no",
+  "departing_section",
+  "departing_airport",
+  "column_break_7",
+  "departing_time",
+  "ariving_section",
+  "ariving_airport",
+  "column_break_11",
+  "ariving_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "airline",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Airline"
+  },
+  {
+   "fieldname": "cabin",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Cabin"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tk_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "TK No"
+  },
+  {
+   "fieldname": "departing_section",
+   "fieldtype": "Section Break",
+   "label": "Departing"
+  },
+  {
+   "fieldname": "departing_airport",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Departing Airport"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "departing_time",
+   "fieldtype": "Data",
+   "label": "Departing Time"
+  },
+  {
+   "fieldname": "ariving_section",
+   "fieldtype": "Section Break",
+   "label": "Ariving"
+  },
+  {
+   "fieldname": "ariving_airport",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ariving Airport"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ariving_time",
+   "fieldtype": "Data",
+   "label": "Ariving Time"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-03-03 17:38:10.393083",
+ "modified_by": "Administrator",
+ "module": "Flight",
+ "name": "Flight Booking Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
